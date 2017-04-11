@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Counter</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<style>
+
+		body {
+			background-color: #ccc;
+		}
+
+		.wrapper {
+			width: 960px;
+			margin: 0 auto;
+			margin-top: 150px;
+			text-align: center;
+		}
+
+		.timer {
+			font-size: 100px;
+			margin-bottom: 20px;
+			font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+			font-weight: bold;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<h1 class="timer" id="timer">00:00:00.000</h1>
+		<button class="btn btn-success btn-lg" id="btnStart">Start</button>
+		<button class="btn btn-success btn-lg" id="btnReset">Clear</button>
+
+	</div>
+	
+	<script src="js/counter.js"></script>
+</body>
+</html>
